@@ -27,6 +27,15 @@ public abstract class BaseDay
   }
 
   public abstract void Setup();
-  public abstract ValueTask<string> Part1();
-  public abstract ValueTask<string> Part2();
+
+  public virtual ValueTask<string> Part1()
+  {
+    return new ValueTask<string>("0");
+  }
+
+  public virtual ValueTask<string> Part2()
+  {
+    return new ValueTask<string>("0");
+  }
+
 }
