@@ -1,0 +1,21 @@
+namespace AdventOfCode.Solutions.YearYYYY;
+
+using AdventOfCode.Core;
+
+public class DayDD : BaseDay
+{
+  public override void Setup()
+  {
+    var lines = File.ReadAllLines(InputFilePath);
+  }
+
+  public override ValueTask<string> Part1()
+  {
+    return ValueTask.FromResult("0");
+  }
+
+  public override ValueTask<string> Part2()
+  {
+    return ValueTask.FromResult("0");
+  }
+}
