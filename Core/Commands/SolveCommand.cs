@@ -79,7 +79,7 @@ internal static class SolveCommand
 
     if (!part.HasValue || part == 2)
     {
-      var inputType = useTest ? "TestInputPart1.txt" : "Input.txt";
+      var inputType = useTest ? "TestInputPart2.txt" : "Input.txt";
       var inputPath = $"./Solutions/{year}/Inputs/Day{day:D2}/{inputType}";
       solver.SetInputFilePath(inputPath);
       solver.Setup();
